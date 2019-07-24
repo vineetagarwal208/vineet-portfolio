@@ -27,7 +27,7 @@ class MyJumbo2 extends Component {
             />
             <Media.Body>
                 <p>
-                When I am not working, I enjoy Skiing, Camping and Hiking in the Rocky Mountains with my wife and daughter. 
+                When I am not working, I enjoy Skiing, Camping and Hiking in the Rocky Mountains with my wife and daughter. I also like photography and gardening.
             I intend to improve my portfolio website and showcase my skills better over the next few months.
                 </p>
             </Media.Body>
