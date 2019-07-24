@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react';
-import { Row, Col, Card, Container} from 'react-bootstrap';
+import { Row, Col, Card, Container, Jumbotron} from 'react-bootstrap';
 
 const cardStyle = {border:"none",
                     width: '18rem' }
@@ -11,19 +11,32 @@ class MyNav extends Component {
     this.state = {
         cardData1 : [
             {
-                title: "Web Development",
-                text: "I have years of experience developing Web Apps using Javascript, ReactJS and AngularJS and building REST APIs using Python"
+                title: "Web Apps",
+                text: "I have years of experience developing Web Apps using Javascript, ReactJS and AngularJS and building REST APIs"
             },
             {
-                title: "Data Analysis",
-                text: "Statistics, Machine learning, Artificial Intelligence"
+                title: "Big Data Pipelines",
+                text: "I enjoy developing efficient and scalable pipelines to transform and store data. I am comfortable working with Spark, Hive etc."
                 },
             {
-                title: "Big Data Engineering",
-                text: "Optimizing storage and processing of big data, automation"
+                title: "Data Visualization",
+                text: "Good data visualizations are essential to story telling. I love developing dynamic data visualizations for responsive web apps"
+                },
+        ],
+        cardData2 : [
+            {
+                title: "Statistical Models",
+                text: "Including but not limited to Regression, Clustering, SVMs and Trees  "
+            },
+            {
+                title: "Deep Learning",
+                text: "I find NNs to be a very interesting topic. I have worked with CNNs for image detection"
+                },
+            {
+                title: "Automation",
+                text: "It you can repeat it, I can automate it so you can spend time on better things"
                 },
         ]
-
      };
     }
  
@@ -32,9 +45,26 @@ class MyNav extends Component {
 
   render() {
     return (
-        <Container style={{paddingTop:30}}>
-        <Row>
+        <Container >
+            <Jumbotron style={{backgroundColor:"white", maxHeight:100}} > <h2>What I can build ? </h2></Jumbotron>
+        <Row style={{paddingTop:30}}>
             {this.state.cardData1.map((x) => {
+                return (
+                    <Col sm key={"skills"+x.title}>
+                    <Card style={cardStyle}>
+                    <Card.Body>
+                        <Card.Title> <h3>{x.title}</h3></Card.Title>
+                        <Card.Text>
+                             {x.text}
+                        </Card.Text>
+                    </Card.Body>
+                    </Card>
+                    </Col>
+                )
+            })}
+        </Row>
+        <Row>
+            {this.state.cardData2.map((x) => {
                 return (
                     <Col sm key={"skills"+x.title}>
                     <Card style={cardStyle}>
