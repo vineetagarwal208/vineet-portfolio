@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/vineet-portfolio/precache-manifest.8c4559cc224bd70392371012f2ece41a.js"
+  "/vineet-portfolio/precache-manifest.39306ded6cecd39ace5bdc932d1a863b.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vineet-portfolio/static/css/main.2cce8147.chunk.css",
-    "main.js": "/vineet-portfolio/static/js/main.424f1d16.chunk.js",
-    "main.js.map": "/vineet-portfolio/static/js/main.424f1d16.chunk.js.map",
+    "main.js": "/vineet-portfolio/static/js/main.f991e02b.chunk.js",
+    "main.js.map": "/vineet-portfolio/static/js/main.f991e02b.chunk.js.map",
     "runtime~main.js": "/vineet-portfolio/static/js/runtime~main.dd963e9e.js",
     "runtime~main.js.map": "/vineet-portfolio/static/js/runtime~main.dd963e9e.js.map",
     "static/css/2.22a7d4ef.chunk.css": "/vineet-portfolio/static/css/2.22a7d4ef.chunk.css",
     "static/js/2.cb2840e5.chunk.js": "/vineet-portfolio/static/js/2.cb2840e5.chunk.js",
     "static/js/2.cb2840e5.chunk.js.map": "/vineet-portfolio/static/js/2.cb2840e5.chunk.js.map",
     "index.html": "/vineet-portfolio/index.html",
-    "precache-manifest.8c4559cc224bd70392371012f2ece41a.js": "/vineet-portfolio/precache-manifest.8c4559cc224bd70392371012f2ece41a.js",
+    "precache-manifest.39306ded6cecd39ace5bdc932d1a863b.js": "/vineet-portfolio/precache-manifest.39306ded6cecd39ace5bdc932d1a863b.js",
     "service-worker.js": "/vineet-portfolio/service-worker.js",
     "static/css/2.22a7d4ef.chunk.css.map": "/vineet-portfolio/static/css/2.22a7d4ef.chunk.css.map",
     "static/css/main.2cce8147.chunk.css.map": "/vineet-portfolio/static/css/main.2cce8147.chunk.css.map"
