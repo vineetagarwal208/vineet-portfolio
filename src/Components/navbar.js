@@ -47,7 +47,7 @@ class MyNav extends Component {
 
             </Nav>
             <Nav>
-                <Nav.Link href="#deets">
+                <Nav.Link>
                     <Button variant="outline-info" onClick={this.props.toggleContactMe}> 
                         <FontAwesomeIcon icon= {faEnvelope} />
                     </Button>

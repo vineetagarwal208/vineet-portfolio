@@ -12,7 +12,7 @@ class MyNav extends Component {
         cardData1 : [
             {
                 title: "Web Apps",
-                text: "I have years of experience developing Web Apps using Javascript, ReactJS and AngularJS and building REST APIs"
+                text: "I can develop fast and responsive fullstack web apps using ReactJS/Angular and Python REST API   "
             },
             {
                 title: "Big Data Pipelines",
@@ -20,7 +20,7 @@ class MyNav extends Component {
                 },
             {
                 title: "Data Visualization",
-                text: "Good data visualizations are essential to story telling. I love developing dynamic data visualizations for responsive web apps"
+                text: "Good data visualizations are essential to story telling. I love developing static and dynamic data visualizations for web apps"
                 },
         ],
         cardData2 : [
